@@ -75,7 +75,7 @@ func loop(chances int, target int) {
 		attempts++
 
 		if guess == target {
-			fmt.Printf("Congragulations! You guess the correct number in %d attempts.\n", attempts)
+			fmt.Printf("Congratulations! You guess the correct number in %d attempts.\n", attempts)
 			return
 		} else if guess < target {
 			fmt.Println("Incorret! The number is greater than", guess)
